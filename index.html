@@ -15,48 +15,78 @@
         <header class="header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">Moses <span>Lethole</span></a>
+                    <a href="#" class="nav__logo"><span class="name">Moses</span> <span class="surname">Lethole</span></a>
                 </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
+            <div class="nav__menu" id="nav-menu">
+                <button class="nav__close" id="nav-close">&times;</button> <!-- Close button -->
+                <ul class="nav__list">
+                    <li><a href="#home" class="nav__link">Home</a></li>
+                    <li><a href="#services" class="nav__link">Services</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>                    
+                    <li><a href="#engagements" class="nav__link">Gallery</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>                
             </nav>
         </header>
 
         <main class="main">
             <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>It's <span class="home__title-color">Moses</span><br> <span class="career">Data Analyst</span></h1>
-
-                    <a href="#email_footer" class="button">Contact</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/moses-lethole-974908196/" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/MosesLethole/Portfolio" class="home__social-icon" target="_blank"><i class='bx bxl-github'></i></a>
-                    
-                </div>
-
-                <div class="home__img">
-                   <a>
-                     <img class="home__blob-img" x="50" y="60" src='https://i.postimg.cc/nLRMFq1s/My-picture-png.png'
+        <section id="home" class="home-section">
+        <div class="home__content">
+            
+             <h1 class="slogan" >
+                <span class="large_slogan"> Hi, it's </span> <span class="shoot">Moses</span>
+                <br>Responsive Web Developer<span class="full_stop">.</span></span></br>
+             </h1>
+             
+             <h2 class="availability_text">Design Front-end websites and integrate backend APIs</h2>
+            <a href="#contact" class="btn">Enquire</a>
+            <a href="https://wa.me/27712744627" class="btn_apply" id="btn_apply" target="_blank"> Hire </a>
+        </div>
+        
+        
+        <div class="home__img">
+            <img src='https://i.postimg.cc/nLRMFq1s/My-picture-png.png'
                      border='0' 
-                     alt='My-picture-png'/>
-                   </a>
-                </div>
-            </section>
+                     alt='My-picture-png' class="home__blob-img">
+        </div>
+        
+        <!-- WhatsApp Icon -->
+         <a href="https://wa.me/27712744627" class="whatsapp-icon" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+        </a>
+    </section>
+
+<section>   
+  <h2 class="section-title">Why choose me</h2>
+    <div class="badges">
+    <div class="badge">
+        <div class="badge__icon">🌐</div>
+        <h3 class="badge__title systems">Custom Web Design</h3>
+        <p class="badge__description">
+        Create a stunning, unique look for your business.
+        </p>
+    </div>
+    <div class="badge">
+        <div class="badge__icon">⏱️</div>
+        <h3 class="badge__title time">Timely Delivery</h3>
+        <p class="badge__description">
+            I deliver responsive and high-quality websites on time.
+        </p>
+    </div>
+    <div class="badge">
+        <div class="badge__icon">⚙️</div>
+        <h3 class="badge__title workshop">Workshop</h3>
+        <p class="badge__description">
+            I offer hands-on workshops to educate clients on effectively using and managing their websites.
+        </p>
+    </div>
+</div>
+</section>
 
             <!--===== ABOUT =====-->
             <section class="about section " id="about">
@@ -64,185 +94,339 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        <img src="https://assets.onecompiler.app/42pmcajnv/42yabuufq/about%20image.png" alt="about_image">
                     </div>
                     
                     <div>
                         <h2 class="about__subtitle">I am Moses</h2>
-                        <p class="about__text">   Data analyst with a robust research and mathematics foundation,
-          leveraging statistical expertise to drive insights. 
-          Proven ability to collect, analyze, and interpret complex data sets using tools like 
-          SQL, MATLAB, Excel , Python, and Tableau. Skilled in advanced mathematical modeling, 
-          machine learning, and data visualization. Experienced in project management, utilizing
-          Agile methodologies for efficient delivery. </p>
+                        <p class="about__text">  Responsive Web Developer with a strong foundation in mathematics and problem-solving, leveraging technical expertise to design and optimize interactive,
+                        user-friendly websites. Skilled in creating responsive layouts, 
+                        ensuring seamless functionality across devices using tools like HTML, CSS, JavaScript, 
+                        React, and Bootstrap. Experienced in debugging, cross-browser compatibility, and performance optimization.
+                        Proficient in project management and adept at implementing Agile methodologies to deliver high-quality, scalable web solutions on time. </p>
                     </div>                                   
                 </div>
-            </section>
+                
+</section>
+                
+    <section class="radial-section" id="services">     
+    <div class="Services-container">
+    <div class="center-circle">
+      <h2>Web Development Services</h2>
+    </div>
+    <div class="radial-layout">
+      <div class="hex-item front-end">
+        <div class="hex-content">
+          <h3 class="front-text">Front-End</h3>
+          <p>Modern, responsive designs for stunning interfaces.</p>
+        </div>
+      </div>
+      <div class="hex-item back-end">
+        <div class="hex-content">
+          <h3>Back-End</h3>
+          <p>Robust and scalable server-side development.</p>
+        </div>
+      </div>
+      <div class="hex-item ecommerce">
+        <div class="hex-content">
+          <h3>E-Commerce</h3>
+          <p>Custom solutions for online stores and payments.</p>
+        </div>
+      </div>
+      <div class="hex-item integration">
+        <div class="hex-content">
+          <h3>API Integration</h3>
+          <p>Smooth system integrations with third-party services.</p>
+        </div>
+      </div>
+      <div class="hex-item website">
+        <div class="hex-content">
+          <h3>Website</h3>
+          <p>End-to-end website design and development.</p>
+        </div>
+      </div>
+      <div class="hex-item customized">
+        <div class="hex-content">
+          <h3>Custom Solutions</h3>
+          <p>Tailored apps and tools for your unique needs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
             <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+<section class="skills-section" id="skills">
+    <h2 class="section-title">Skills</h2>
 
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Profesional Tools</h2>
-                        <p class="skills__text">Develop predictive models and create interactive dashboards to communicate insights to stakeholders, by integrating machine learning algorithms, data analytics and web design tools including:</p>
-                        
-                        
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">Excel</span>
-                            </div>
-                            <div class="skills__bar skills__excel">
+    <div class="skills__container bd-grid">
+        <div class="skills__info">
+            <h2 class="skills__subtitle">Professional Tools</h2>
+            <p class="skills__text">
+                Design and develop responsive web solutions that integrate interactive dashboards and predictive models. 
+                Utilize web development tools and frameworks alongside data analytics and 
+                machine learning algorithms to create user-friendly platforms for effectively communicating insights to stakeholders:
+            </p>
 
-                            </div>
-                            <div>
-                                <span class="skills__percentage">90%</span>
-                            </div>
-                        </div>
-                        
-                      
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">Tableau</span>
-                            </div>
-                            <div class="skills__bar skills__tableau">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">Python</span>
-                            </div>
-                            <div class="skills__bar skills__python">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">R-Programming</span>
-                            </div>
-                            <div class="skills__bar skills__r">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">SQL</span>
-                            </div>
-                            <div class="skills__bar skills__SQL">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage">60%</span>
-                            </div>
-                        </div>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <span class="skills__name">HTML5 , CSS3 & Javascript </span>
-                            </div>
-                            <div class="skills__bar skills__html">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-                        
-  
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
-                    </div>
+            <div class="skills__data">
+                <div class="skills__names">
+                    <span class="skills__name">HTML5, CSS3 & JavaScript</span>
                 </div>
-            </section>
+                <div class="skills__bar skills__html"></div>
+                <span class="skills__percentage">75%</span>
+            </div>
+
+            <div class="skills__data">
+                <div class="skills__names">
+                    <span class="skills__name">React</span>
+                </div>
+                <div class="skills__bar skills__react"></div>
+                <span class="skills__percentage">80%</span>
+            </div>
+
+            <div class="skills__data">
+                <div class="skills__names">
+                    <span class="skills__name">MATLAB</span>
+                </div>
+                <div class="skills__bar skills__matlab"></div>
+                <span class="skills__percentage">70%</span>
+            </div>
+
+            <div class="skills__data">
+                <div class="skills__names">
+                    <span class="skills__name">Python</span>
+                </div>
+                <div class="skills__bar skills__python"></div>
+                <span class="skills__percentage">85%</span>
+            </div>
+        </div>
+
+        <div class="skills__img">
+            <img src="https://assets.onecompiler.app/42pmcajnv/42yabuufq/skills%20Image.png" alt="Skills Image">
+        </div>
+    </div>
+</section>
+
 
             <!--===== WORK =====-->
             <section class="work section" id="work">
                 <h2 class="section-title">Latest Projects</h2>
+  <style>
+    /* Gallery Carousel container styling */
+    .gallery-carousel {
+      position: relative;
+      max-width: 650px;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 8px;
+      align-content: center;
+      border: 4px solid var(--first-color);
+      height:400px;
+    }
+    
+@media (max-width: 768px) {
+  .gallery-carousel {
+      position: relative;
+      max-width: 90%;
+      height:350px;
+  }
+}
+@media (max-width: 480px) {
+  .gallery-carousel {
+      position: relative;
+      max-width: 90%;
+      height:250px;
+  }
+}
 
-                <div class="work__container bd-grid">
+    /* Images in the gallery carousel */
+    .gallery-carousel img {
+      width: 100%;
+      display: none;
+    }
 
-                  <div>
-                    <div class="work_text" id="ecom">
-                      <h3>E-commerce Excel Dashboard</h3>
-                    </div>
-                    <a href='https://docs.google.com/spreadsheets/d/1o-Q5SpYhsWHRmlt1xVWQuTBDVHEqViyq/edit?usp=sharing&ouid=100484577070574352674&rtpof=true&sd=true' target='_blank' class="work__img">
-                      <img src='https://i.postimg.cc/cJtYRbyw/Ecom-Dashboard.png' border='0' alt='Ecom-Dashboard'/>
-                    </a>
-                  </div>
-                    
-                    
-                  <div >
-                    <div class="work_text" id="road">
-                      <h3>Road Accident Excel  Dashboard</h3>
-                    </div>
-                      <a href='https://docs.google.com/spreadsheets/d/1Osjrzjujupl2TgE1yy-r3xklIgy_ZDc0/edit?usp=sharing&ouid=100484577070574352674&rtpof=true&sd=true' target='_blank' class="work__img">
-                       <img src='https://i.postimg.cc/027BfVxg/Accidents-Dashboard.png' border='0' alt='Accidents-Dashboard'/>
-                    </a>
-                  </div>
-                    
-                    
-                  <div>
-                    <div class="work_text" id="admin">
-                      <h3>Admin HTML  Dashboard</h3>
-                    </div>
-                      <a href='https://onecompiler.com/html/42s6xdhwq' target='_blank' class="work__img">
-                      <img src='https://i.postimg.cc/PfV4Vyry/html-dashboard.png' border='0' alt='html-dashboard'/>
-                    </a>
-                  </div>
-                    
+    /* Active slide */
+    .gallery-carousel img.active-slide {
+      display: block;
+    }
 
-                    
-                    
+    /* Dots container */
+    .gallery-dots-container {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+    }
+
+    /* Individual dots */
+    .gallery-dot {
+      height: 10px;
+      width: 10px;
+      margin: 0 5px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    /* Active dot */
+    .gallery-dot.active-dot {
+      background-color: #717171;
+    }
+
+    /* Arrow buttons */
+    .gallery-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 24px;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 50%;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    /* Position left and right arrows */
+    .gallery-arrow.left-arrow {
+      left: 10px;
+    }
+
+    .gallery-arrow.right-arrow {
+      right: 10px;
+    }
+  </style>
+<section><h2 class="gallery-section" id="engagements"></h2> 
+<div class="gallery-carousel">
+  <!-- Arrow buttons for navigation -->
+  <span class="gallery-arrow left-arrow" onclick="changeGallerySlide(-1)">&#10094;</span>  <!-- Left arrow -->
+  <span class="gallery-arrow right-arrow" onclick="changeGallerySlide(1)">&#10095;</span> <!-- Right arrow -->
+
+  <!-- Gallery Carousel images -->
+  <a>
+    <img src="https://assets.onecompiler.app/42pmcajnv/42yabuufq/theo%20home.png" alt="Theo Tutoring web">
+  </a>
+  <a>
+   <img src="https://assets.onecompiler.app/42pmcajnv/42yabuufq/Pat%20home.png" alt="maths scholar web">
+  </a>
+  <a>
+    <img src="https://assets.onecompiler.app/42pmcajnv/42yabuufq/mos%20porfolio.png" alt="Mos Portfolio">
+  </a>
+
+
+  <!-- Dots for navigation -->
+  <div class="gallery-dots-container">
+    <span class="gallery-dot active-dot" onclick="currentGallerySlide(0)"></span>
+    <span class="gallery-dot" onclick="currentGallerySlide(1)"></span>
+    <span class="gallery-dot" onclick="currentGallerySlide(2)"></span>
+  </div>
+</div>
+
+<script>
+  let galleryCurrentSlideIndex = 0;
+  const gallerySlides = document.querySelectorAll(".gallery-carousel img");
+  const galleryDots = document.querySelectorAll(".gallery-dot");
+
+  // Function to show the slide at the specified index
+  function showGallerySlide(index) {
+    gallerySlides.forEach((slide, i) => {
+      slide.classList.toggle("active-slide", i === index);
+    });
+    galleryDots.forEach((dot, i) => {
+      dot.classList.toggle("active-dot", i === index);
+    });
+    galleryCurrentSlideIndex = index;
+  }
+
+  // Function to set the current slide
+  function currentGallerySlide(index) {
+    showGallerySlide(index);
+  }
+
+  // Function to change slide based on arrow click
+  function changeGallerySlide(direction) {
+    galleryCurrentSlideIndex = (galleryCurrentSlideIndex + direction + gallerySlides.length) % gallerySlides.length;
+    showGallerySlide(galleryCurrentSlideIndex);
+  }
+
+  // Automatic slide change
+  setInterval(() => {
+    changeGallerySlide(1); // Move to the next slide
+  }, 7000);
+</script>
+</section>
                 
-                   
-                    
-                </div>
-            </section>
 
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+    <!--===== CONTACT SECTION =====-->
 
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Your Name" class="contact__input">
-                        <input type="mail" placeholder="Your Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input" placeholder="Your Message"></textarea>
-                        <input type="button" value="Email" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
+    <section id="contact" class="contact-section">
+    <h2 class="section-title">Reach Us</h2>
+    <form action="https://submit-form.com/UrlGA19Pj" method="POST"  target="_blank" onsubmit="clearFormFieldsAfterSubmit()">
+        <input type="text" name="first-name" placeholder="Your Name" id="nameField" required>
+        <input type="email" name="email" placeholder="Your Email" id="emailField" required>
+        <textarea name="message" placeholder="Your Message" rows="15" id="messageField" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+    </section>
+    
+<script>
+  function clearFormFieldsAfterSubmit() {
+    setTimeout(() => {
+      document.getElementById("nameField").value = "";
+      document.getElementById("emailField").value = "";
+      document.getElementById("messageField").value = "";
+    }, 5); 
+  }
+</script>
+</main>
 
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Lethole M</p>
-            
-            <div class="footer__social">
-                <a href="https://www.linkedin.com/in/moses-lethole-974908196/" class="footer__icon" target="_blank"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://www.github.com/MosesLethole/Portfolio" class="footer__icon" target="_blank"><i class='bx bxl-github' ></i></a>
-            </div>
-            <p class="footer__rights" id="email_footer"> moseslethole98@gmail.com &#169;All rights reserved</p>
-        
-        </footer>
+<!--===== FOOTER =====-->
+<footer class="footer" id="footer">
+    <div class="footer__container">
+        <!-- Column 1: Our Work -->
+        <div class="footer__column">
+            <h3>Our Work</h3>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#engagements">Gallery</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 2: Extra -->
+        <div class="footer__column">
+            <h3>Enrolment</h3>
+            <ul>
+                <li><a href="#Procedure">Procedures</a></li>
+                <li><a href="#" target="_blank">Hire</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Contacts -->
+        <div class="footer__column">
+            <h3 id="footer_contacts">Contacts</h3>
+            <ul>
+                <li><i class="fa fa-phone"> :  </i>  +27 71 274 4627 </li>
+                <li><i class="fa fa-phone"> :  </i>  +27 79 435 6829</li>
+                <li><i class="fa fa-envelope"> :  </i>  moseslethole98@gmail.com</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer bottom rights -->
+    <div class="footer__bottom">
+          <!-- Social Media Icons Section -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="footer__social">
+
+        <a href="https://www.linkedin.com/in/moses-lethole-974908196/" class="footer__icon" target="_blank"><i class="fa fa-linkedin"></i></a>
+    </div>
+        <p class="footer__rights">&#169; 2024 Moses Lethole - All rights reserved</p>
+    </div>
+</footer>
 
 
         <!--===== SCROLL REVEAL =====-->
